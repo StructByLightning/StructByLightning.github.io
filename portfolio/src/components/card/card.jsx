@@ -5,7 +5,7 @@ export default class Card extends React.Component {
   render() {
     return (
       <div class="card">
-        <img class="card-image" src={this.props.image} />
+        <img class="card-image" src={this.props.image} alt={this.props.alt} />
         <div class="card-label">
           <div>{this.props.label}</div>
         </div>

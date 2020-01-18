@@ -9,7 +9,7 @@ export default class Projects extends React.Component {
       <section className="projects" id="section-projects">
         <LineHeader label="Projects" />
         <div class="card-wrapper">
-          <Card label="Stax" image="/images/gears.jpg">
+          <Card label="Stax" image="/images/gears.jpg" alt="Image of gears.">
             <p>
               Stax is a Chrome extension for Amazon Mechanical Turk, a gig platform where workers perform various menial tasks such as tagging images or filling out psychological surveys. It is built with React and is entirely clientside.
             </p>
@@ -23,7 +23,7 @@ export default class Projects extends React.Component {
 
           </Card>
 
-          <Card label="Game bot" image="/images/ai.jpg">
+          <Card label="Game bot" image="/images/ai.jpg" alt="Image of a digital brain.">
             <p>
               I wrote a bot in Java/C++ for an MMORPG that gathered resources (in-game virtual gold), which could then be sold for real-world money.
             </p>
@@ -38,7 +38,7 @@ export default class Projects extends React.Component {
               <li><b>Masking:</b> bots mimicked human behavior to avoid detection by other players and game masters.</li>
             </ul>
           </Card>
-          <Card label="Web serial site" image="/images/books.jpg">
+          <Card label="Web serial site" image="/images/books.jpg" alt="Image of books.">
             <p>
               I designed, developed, and deployed a website for a web serial, which is a sort of book that gets published one chapter at a time. The site was built from scratch with Angular and hosted on an AWS elastic cloud compute (EC2) instance.
             </p>
