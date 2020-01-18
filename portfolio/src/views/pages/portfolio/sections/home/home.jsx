@@ -9,13 +9,13 @@ import { ReactComponent as ContactIcon } from "icons/contact.svg";
 export default class Home extends React.Component {
   render() {
     return (
-      <div class="home">
-        <div class="header">
-          <div class="name">Raven Schultz</div>
+      <section class="home">
+        <header>
+          <h1>Raven Schultz</h1>
           <LineHeader label="Software Engineer" />
-        </div>
+        </header>
 
-        <div class="card-wrapper-parent">
+        <div class="content">
           <div class="card-wrapper">
             <LinkCard label="About" href="#section-about">
               <InfoIcon />
@@ -28,7 +28,7 @@ export default class Home extends React.Component {
             </LinkCard>
           </div>
         </div>
-      </div>
+      </section>
     );
   }
 }

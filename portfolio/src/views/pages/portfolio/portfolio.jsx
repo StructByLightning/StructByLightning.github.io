@@ -8,12 +8,12 @@ import Projects from "./sections/projects/projects.jsx";
 export default class Portfolio extends React.Component {
   render() {
     return (
-      <div className="portfolio">
+      <main className="portfolio">
         <Home />
         <About />
         <Projects />
         <Contact />
-      </div>
+      </main>
     );
   }
 }

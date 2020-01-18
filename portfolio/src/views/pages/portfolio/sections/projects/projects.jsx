@@ -6,7 +6,7 @@ import Card from "components/card/card.jsx";
 export default class Projects extends React.Component {
   render() {
     return (
-      <div className="projects" id="section-projects">
+      <section className="projects" id="section-projects">
         <LineHeader label="Projects" />
         <div class="card-wrapper">
           <Card label="Stax" image="/images/gears.jpg">
@@ -51,7 +51,7 @@ export default class Projects extends React.Component {
             </ul>
           </Card>
         </div>
-      </div>
+      </section>
     );
   }
 }
