@@ -1,0 +1,23 @@
+.line-header {
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+  width: 100%;
+
+  span {
+    font-size: var(--font-size-5);
+    padding-left: var(--spacing-4);
+    padding-right: var(--spacing-4);
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: Simonetta;
+    font-weight: 700;
+  }
+
+  hr {
+    flex-grow: 1;
+    border: none;
+    height: 1px;
+    background-color: var(--primary-6);
+  }
+}
