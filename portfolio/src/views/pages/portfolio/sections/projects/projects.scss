@@ -1,0 +1,24 @@
+.projects {
+  width: 100vw;
+  max-width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  .card-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    flex-grow: 1;
+
+    @media screen and (max-width: 800px) {
+      flex-direction: column;
+    }
+
+    > * {
+      margin: var(--spacing-4);
+      flex-grow: 1;
+    }
+  }
+}
