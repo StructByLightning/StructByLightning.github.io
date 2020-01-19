@@ -12,7 +12,9 @@ export default class Home extends React.Component {
       <section class="home">
         <header>
           <h1>Raven Schultz</h1>
-          <LineHeader label="Software Engineer" />
+          <div class="elevator">
+            <p>I'm a software engineer. Officially my job is to build websites, but what I really do is make tools that improve people's lives.</p>
+          </div>
         </header>
 
         <div class="content">
