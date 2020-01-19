@@ -16,8 +16,8 @@ export default class About extends React.Component {
           <div class="community">
             <h2>Community</h2>
             <ul>
-              <li><a href="https://github.com/StructByLightning">Github</a></li>
-              <li><a href="https://gitlab.com/StructByLightning">Gitlab</a></li>
+              <li><a class="link" href="https://github.com/StructByLightning">Github</a></li>
+              <li><a class="link" href="https://gitlab.com/StructByLightning">Gitlab</a></li>
             </ul>
 
           </div>

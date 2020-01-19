@@ -29,3 +29,15 @@ body {
 ::-webkit-scrollbar-thumb {
   background: #888;
 }
+
+.link {
+  color: var(--tertiary-7);
+
+  &:hover {
+    filter: brightness(150%);
+
+    &:active {
+      filter: brightness(90%);
+    }
+  }
+}
