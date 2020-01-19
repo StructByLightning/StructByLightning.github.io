@@ -53,6 +53,11 @@ section.home {
       > *:not(:last-child) {
         margin-right: var(--spacing-5);
         flex-grow: 1;
+
+        @media screen and (max-width: 800px) {
+          margin-right: 0rem;
+          margin-bottom: var(--spacing-5);
+        }
       }
     }
   }

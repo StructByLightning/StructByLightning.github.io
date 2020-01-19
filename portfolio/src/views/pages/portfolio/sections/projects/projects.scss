@@ -17,8 +17,13 @@ section.projects {
     }
 
     > *:not(:last-child) {
-      margin-right: var(--spacing-5);
       flex-grow: 1;
+      margin-right: var(--spacing-5);
+
+      @media screen and (max-width: 800px) {
+        margin-right: 0rem;
+        margin-bottom: var(--spacing-5);
+      }
     }
   }
 }
