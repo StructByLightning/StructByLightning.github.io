@@ -1,68 +1,39 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Explanation
 
-## Available Scripts
+I accidentally deleted my journal and for some reason I can't find it in my repository's history so this is a very rough reconstruction of what happened. I'm sorry. :c
 
-In the project directory, you can run:
+I started the project by copying one of my homework templates over and cleaning it up. I got a little ways in before realizing I probably shouldn't have done that. I restarted with create-react-app and only copied over some basic scss (variables.scss) that contains a bunch of variables I worked out a while back. Super handy and more customizable than bootstrap. Anyways I got two sections done and then realized I probably shouldn't be using react since the class is still on basic html/css... so I restarted _again_. Luckily you said that react was fine shortly afterwards so I didn't waste too much time.
 
-### `npm start`
+Then I forgot about the project until 1/31/2020, but that was fine since I was practically done by then. I finished it up, deployed to AWS, and realized I was supposed to deploy to github pages. It took me an hour or so to get all that worked out but the [site is now live]().
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Major stuff
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### The About/Projects/Contact cards
 
-### `npm test`
+I saw the effect a few years ago and spent an afternoon figuring out how to replicate it. It works by sliding the borders around. Each border is actually much longer than what you can see and is dashed. Then they just move up/down/left/right with css animations that are timed to make it look like the lines are crawling around the border.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Reproducing the cards was the hardest and most enjoyable part of this assignment. I even made them sort of responsive, rather than taking the easy way out and hardcoding everything.
 
-### `npm run build`
+### About
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+I know this is kind of sparse. Yeah, I said I write fiction, but somehow it's harder when you're writing about yourself. I'm kind of a private person, which doesn't really help... I don't like opening up to people, especially not when it's under my real name. I don't even do social media (looks like I'm going to get the last laugh on that with all the controversy though).
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### Projects
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Cards, yay. Who doesn't love cards? I'm pretty sure the hover effect is terrible on mobile though, but oh well. If I was doing it for mobile I'd just have them activate as you scrolled by.
 
-### `npm run eject`
+Also, the cards squish badly and then grow too much... but I'm not really sure what a good solution is, from a design perspective. I did make the layout direction change if the screen got too narrow.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Contact
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Short n sweet. I wrote this in 20 minutes and don't have anything to say about it.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Mistakes
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Old me was stupid and picked two shades of blue as secondary and tertiary colors. I went back and fixed her silliness.
 
-## Learn More
+Honestly, aside from the tech stack fumbles, I didn't have many major problems. This was a pretty easy and straightforward assignment from a coding perspective.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+I sort of flirted with responsive design but didn't really commit to it.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Also, if I was designing this for other people I'd probably at least pay lip service to rounded corners and put 2px or something. Sharp corners are so clean though! They look so much nicer than all that curvy half-melted stuff.

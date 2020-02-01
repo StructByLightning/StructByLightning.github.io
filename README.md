@@ -1,1 +1,0 @@
-# StructByLightning.github.io
