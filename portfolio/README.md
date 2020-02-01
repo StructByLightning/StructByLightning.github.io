@@ -4,7 +4,12 @@ I accidentally deleted my journal and for some reason I can't find it in my repo
 
 I started the project by copying one of my homework templates over and cleaning it up. I got a little ways in before realizing I probably shouldn't have done that. I restarted with create-react-app and only copied over some basic scss (variables.scss) that contains a bunch of variables I worked out a while back. Super handy and more customizable than bootstrap. Anyways I got two sections done and then realized I probably shouldn't be using react since the class is still on basic html/css... so I restarted _again_. Luckily you said that react was fine shortly afterwards so I didn't waste too much time.
 
-Then I forgot about the project until 1/31/2020, but that was fine since I was practically done by then. I finished it up, deployed to AWS, and realized I was supposed to deploy to github pages. It took me an hour or so to get all that worked out but the [site is now live]().
+Then I forgot about the project until 1/31/2020, but that was fine since I was practically done by then. I finished it up, deployed to AWS, and realized I was supposed to deploy to github pages.
+
+- had to enable a theme, even though I wasn't using it (wtf)
+-
+
+It took me an hour or so to get all that worked out but the [site is now live]().
 
 ## Major stuff
 
