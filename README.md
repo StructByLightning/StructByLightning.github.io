@@ -7,9 +7,9 @@ I started the project by copying one of my homework templates over and cleaning 
 Then I forgot about the project until 1/31/2020, but that was fine since I was practically done by then. I finished it up, deployed to AWS, and realized I was supposed to deploy to github pages.
 
 - had to enable a theme, even though I wasn't using it (wtf)
--
+- had to move the contents of build to root, which is why there's all that junk there. Just go to portfolio.
 
-It took me an hour or so to get all that worked out but the [site is now live]().
+It took me an hour or so to get all that worked out but the [site is now live](https://structbylightning.github.io/index.html).
 
 ## Major stuff
 
